@@ -7,6 +7,7 @@ public:
 
         isPrime[0] = 0;
         isPrime[1] = 0;
+        
 
         for (int i = 2; i * i <= n; i++) {
             if (isPrime[i] == 1) {
@@ -14,6 +15,7 @@ public:
                     isPrime[j] = 0;
                 }
             }
+
         }
 
         
