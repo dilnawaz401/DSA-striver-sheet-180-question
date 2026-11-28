@@ -12,6 +12,7 @@ public:
             while (right <= high && (long long)nums[i] > 2LL * nums[right]) {
                 right++;
             }
+            
 
             cnt += (right - (mid + 1));
         }
