@@ -15,6 +15,7 @@ public:
 
         // Step 1: Calculate Prefix Maximum
         prefix[0] = height[0];
+        
 
         for(int i = 1; i < n; i++) {
             prefix[i] = max(prefix[i-1], height[i]);
